@@ -1,5 +1,8 @@
 services:
   web:
+    container_name: play-docker
     build: .
     ports:
       - 3000:3000
+    volumes:
+      - ./data:/data
