@@ -1,6 +1,6 @@
 services:
-  web:
-    container_name: play-docker
+  api:
+    container_name: play-docker-api
     build: .
     ports:
       - 3000:3000
